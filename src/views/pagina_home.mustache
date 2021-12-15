@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <title>Florishop</title>
+
+    <link rel="stylesheet" type="text/css" href="pagina_home.css" media="screen" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/126633e6cf.js" crossorigin="anonymous">
+    </script>
+</head>
+<body class="bg">
+    <header>
+        <div class="nomeFlor">
+            <h1>Florishop</h1>
+            <i style="color: greenyellow" class="fab fa-envira fa-2x"></i>
+        </div> 
+        <div class="pesquisar">
+            <i  class="fas fa-search fa-2x"></i>
+            <input type="text" placeholder="Flor">
+            <button class="procurar">Procurar</button>
+        </div>         
+        <div class="carrinho">
+            <i class="fas fa-shopping-cart fa-2x"></i>
+            <a href=""><button>Carrinho</button></a>
+        </div>
+        <div class="conf">
+            <i class="fas fa-cog fa-2x"></i>
+            <a href='/pagina_config'><button>Configurações</button></a>
+        </div>
+        <div class="sair">
+            <i class="fas fa-door-open fa-2x"></i>
+            <a href="/"><button>Sair</button></a>   
+        </div>
+    </header>
+    <nav>
+    <div class="containerlist">
+    {{#list}}
+    <div class="item">
+        <img src="{{image}}" class="item--image" />
+        <div class="item--name">{{name}}</div>
+        <div class="item--genre">Gênero:{{type}}</div>
+        <div class="item--name">{{price}}</div>
+    </div>
+    {{/list}}
+    </div>
+    </nav>
+    <section>
+        
+    </section>
+</body>
+</html>
