@@ -193,6 +193,49 @@ input{
     justify-content: flex-start;
 }
 
+.excluir{
+    margin-top: 30px;
+    border-top: 1px solid black;
+    padding-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.excluir button{
+    width: 40%;
+    height: 30px;
+    border-radius:5px;
+    font-size: 18px;
+    background-color: red;
+    color: white;
+}
+
+.dinheiro{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction: center;
+    height: 100%;
+    width: 6%;
+}
+
+.dinheiro p{
+    margin-left: 10px;
+    font-size: 18px;
+
+}
+
+.dinheiro button{
+    width: 100%;
+    height: 45%;
+    margin-left: 7px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin-top: 1px;
+}
+
+
 
 
 
