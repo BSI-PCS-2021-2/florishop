@@ -1,0 +1,241 @@
+*{
+    margin:0 auto;
+    font-family: 'Comfortaa';
+}
+.bg{
+    background-color: antiquewhite;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+    height: 12vh;
+    background-color: black;
+    margin:0 auto;
+    color:white;
+}
+
+.nomeFlor{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-direction: center;
+    height: 100%;
+    color:antiquewhite
+
+}
+
+.nomeFlor h1{
+    margin-right: 5px;
+    color: antiquewhite;
+    font-size: 40px;
+}
+
+.procurar{
+    margin-left: 7px;
+    width: 70%;
+    height: 45%;
+    margin-left: 7px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+
+.pesquisar{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction: center;
+    height: 100%;
+}
+
+.pesquisar input{
+    margin-left: 7px;
+    width: 100%;
+    height: 45%;
+    border-radius: 5px;
+    font-size: 15px;
+
+}
+
+.carrinho{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction: center;
+    height: 100%;
+}
+
+.carrinho button{
+    width: 100%;
+    height: 45%;
+    margin-left: 7px;
+    border-radius: 10px;
+    font-size: 15px;
+
+}
+
+.conf{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction: center;
+    height: 100%;
+}
+
+.conf button{
+    width: 100%;
+    height: 45%;
+    margin-left: 7px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.sair{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction: center;
+    height: 100%;
+}
+
+.sair button{
+    width: 100%;
+    height: 45%;
+    margin-left: 7px;
+    border-radius: 10px;
+    font-size: 15px;
+    margin-top: 1px;
+}
+
+button{
+    background-color:antiquewhite;
+    color:black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:rgb(240, 233, 224)
+}
+
+a{
+   width: 100%;
+   height: 100%;
+   display: flex;
+   align-items: center;
+   text-decoration: none;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 80vh;
+}
+
+.container_princi{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border:1px solid black;
+    padding:20px;
+    border-radius: 10px;
+    width:40%;
+    height: 80%;
+    background-color: bisque;
+    box-shadow: 0px 0px 1em #666;
+    -webkit-box-shadow: 0px 0px 1em #666;
+    -moz-box-shadow: 0px 0px 1em #666;
+    font-size: 20px;
+    
+}
+
+form{
+    margin-top: 20px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+form button{
+    border-radius: 5px;
+    margin-top: 15px;
+    width: 40%;
+    height: 30px;
+    font-size: 18px;
+}
+
+ .container_princi h1{
+    font-size: 30px;
+}
+
+input{
+    height: 25px;
+    border-radius: 5px;
+    width: 300px;
+    font-size: 18px;
+}
+.divEspaco{
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+}
+
+.divEspaco label{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.excluir{
+    margin-top: 30px;
+    border-top: 1px solid black;
+    padding-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.excluir button{
+    width: 40%;
+    height: 30px;
+    border-radius:5px;
+    font-size: 18px;
+    background-color: red;
+    color: white;
+}
+
+.dinheiro{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction: center;
+    height: 100%;
+    width: 6%;
+}
+
+.dinheiro p{
+    margin-left: 10px;
+    font-size: 18px;
+
+}
+
+.dinheiro button{
+    width: 100%;
+    height: 45%;
+    margin-left: 7px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin-top: 1px;
+}
+
+
+
+
+

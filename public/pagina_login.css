@@ -1,0 +1,167 @@
+.bg{
+    background-image:url('https://s2.glbimg.com/ZfFwEfhldwpMMQF_nkx3yizWaUs=/940x523/e.glbimg.com/og/ed/f/original/2019/07/19/arts-arts-and-crafts-bloom-529927.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+
+}
+
+.cred{
+    font-size: 25px;
+    color: red;
+    margin-top: 15px;
+}
+
+form{
+    width:75%;
+    height: 65%;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+
+}
+
+*{
+    margin:0 auto;
+    font-family: 'Comfortaa';
+}
+.h1comIcone{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+
+body{
+    height: 100vh;
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container_principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border:1px solid black;
+    padding:15px;
+    border-radius: 10px;
+    width:40%;
+    height: 60%;
+    background-color: bisque;
+    box-shadow: 0px 0px 1em #666;
+    -webkit-box-shadow: 0px 0px 1em #666;
+    -moz-box-shadow: 0px 0px 1em #666;
+
+
+}
+
+.container_principal h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}
+
+.manchete{
+    height: 25%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+}
+
+.manchete p{
+    font-size: 23px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.comodesejafrase{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.campos_login{
+    width:75%;
+    height: 25%;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    
+}
+input{
+    width: 75%;
+    height: 40%;
+    border-radius: 3px;
+    font-size: 18px;
+}
+
+
+.botoes_login{
+    width: 62%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.botoes_principais{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.bSecundario{
+    width: 100%;
+    height: 60%;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.bPrincipal{
+    width: 100%;
+    height: 95%;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.bSecundario:hover{
+    background-color:blanchedalmond;
+    font-weight: bold;
+}
+
+.bPrincipal:hover{
+    background-color:blanchedalmond;
+    font-weight: bold;
+}
+
+.bPrincipals{
+    width: 98%;
+    height: 100%;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.fim{
+    margin-top: 10px;
+    font-size: 25px;
+    color: red;
+}

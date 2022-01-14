@@ -1,0 +1,49 @@
+<body class="bg">
+ <header>
+        <div class="nomeFlor">
+            <h1>Florishop</h1>
+            <i style="color: greenyellow" class="fab fa-envira fa-2x"></i>
+        </div> 
+        <div class="pesquisar">
+            <i  class="fas fa-search fa-2x"></i>
+            <form action="/procurar" method="POST" class="pesquisar">
+            <input type="text" id="flor" name="flor" placeholder="Flor">
+            <button type="submit" class="procurar">Procurar</button>
+            </form>
+        </div>         
+        <div class="carrinho">
+            <i class="fas fa-shopping-cart fa-2x"></i>
+            <a href=""><button>Carrinho</button></a>
+        </div>
+        <div class="conf">
+            <i class="fas fa-cog fa-2x"></i>
+            <a href='/pagina_config'><button>Configurações</button></a>
+        </div>
+        <div class="dinheiro">
+            <i class="fas fa-coins fa-2x"></i>
+            <a href="/"><button>Adicionar Dinheiro</button></a>   
+            <p>R$0,00</p>  
+        </div>
+        <div class="sair">
+            <i class="fas fa-door-open fa-2x"></i>
+            <a href="/"><button>Sair</button></a>   
+        </div>
+    </header>
+    <nav>
+    <div class="segundaParte">
+    <div class="containerlist">
+    {{#each vetorflor}}
+    <div class="item">
+        <a href="pagina_flor_{{name}}"><img src="{{image}}" /></a>
+        <div class="frases">{{name}}</div>
+        <div class="frases">Gênero:{{type}}</div>
+        <div class="frases">R${{price}}</div>
+    </div>
+    {{/each}}
+    </div>
+    </div>
+    </nav>
+    <section>
+        
+    </section>
+</body>
