@@ -1,0 +1,40 @@
+<body class="bg">
+    
+
+<div class="container_principal">
+        <div class="manchete">
+            <div class = "h1comIcone">
+            <i class="fab fa-envira fa-4x"></i>
+            <h1>Florishop</h1>
+            
+            <i class="fab fa-pagelines fa-4x"></i>
+            </div>
+            <h1 style="color: green; font-size:30px; margin-botton:50px">{{message}}</h1>
+            <h1 style="color: {{cor}}; font-size:30px; margin-botton:20px">{{mensagem}}</h1>
+            <h1 style="color: green; font-size:30px; margin-botton:50px">{{texto}}</h1>
+            <p>O maior portal de flores do mundo</p>
+        </div>
+            
+        <p class="comodesejafrase">Como deseja continuar?</p> 
+        <form action="/pagina_home" method="post">
+        <div class="campos_login">
+            <p>Email</p>
+            <input type="email" id="email" name="email" required>
+            <p>Senha</p>
+            <input type="password" id="senha" name="senha" required>
+        </div>
+        <div class="botoes_login">
+            <div class="botoes_principais">
+                <button type="submit" class="bPrincipals">Entrar</button>
+            </div>
+        </div>
+        </form>
+        <div class="botoes_login">
+            <a href="/send" class="ahref"><button class="bSecundario">Esqueci minha senha</button></a>
+            <div class="botoes_principais">
+                <a class="bPrincipal" href="pagina_cadastro"><button class="bPrincipal">Cadastrar</button></a>
+            </div>
+            
+        </div>
+    </div>
+</body>

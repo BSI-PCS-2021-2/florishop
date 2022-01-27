@@ -1,0 +1,75 @@
+<body class="bg">
+ <header>
+        <div class="nomeFlor">
+            <h1>Florishop</h1>
+            <i style="color: greenyellow" class="fab fa-envira fa-2x"></i>
+        </div> 
+        <div class="pesquisar">
+            <i  class="fas fa-search fa-2x"></i>
+            <form action="/procurar" method="POST" class="pesquisar">
+            <input type="text" id="flor" name="flor" placeholder="Flor">
+            <button type="submit" class="procurar">Procurar</button>
+            </form>
+        </div>         
+        <div class="carrinho">
+            <i class="fas fa-shopping-cart fa-2x"></i>
+            <a href=""><button>Carrinho</button></a>
+        </div>
+        <div class="conf">
+            <i class="fas fa-cog fa-2x"></i>
+            <a href='/pagina_config'><button>Configurações</button></a>
+        </div>
+        <div class="dinheiro">
+            <i class="fas fa-coins fa-2x"></i>
+            <a href="/pagina_vale_presente"><button>Adicionar Vale-Presente</button></a> 
+            <p>R${{valor}},00</p>    
+        </div>
+        <div class="sair">
+            <i class="fas fa-door-open fa-2x"></i>
+            <a href="/"><button>Sair</button></a>   
+        </div>
+    </header>
+    <nav>
+        <div class="listacarrinho">
+            <div class="produto">
+            <img src="https://www.floresonline.com.br/media/catalog/product/a/l/alta-1116-0.webp" alt="dsaasd">
+            <p>Girassól Notícia</p>
+            <p>Quantidade: 2</p>
+            <p>Preço unitário:R$70,00</p>
+            </div>
+            <div class="produto">
+            <img src="https://www.floresonline.com.br/media/catalog/product/a/l/alta-2740-1.webp" alt="dsaasd">
+            <p>Lirio de Hastes Brancas</p>
+            <p>Quantidade: 1</p>
+            <p>Preço unitário: R$150,00</p>
+            </div>
+            <div class="ctn-frase">
+            <form action="pesqfrase" method = "post">
+            <h1>Escolha a frase que virá com as flores!</h1>
+            <p>Digite o nome de alguma famoso,figura pública ou pensador</p>
+            <input type="text" name="pessoa" id="pessoa">
+            <button type="submit">Procurar</button>
+            <br>
+            <br>
+            <h1>Frase: {{frasefinal}}</h1>
+            <br>
+            </form>
+            </div>
+            <div class="espacorestante">
+                <div class="quasefim">
+                <p>Total: R$290,00 - R$50,00= <p style="color: green;">R$240,00</p></p>
+                <select name="" id="">
+                    <option label="{{cartao}}"></option>
+                </select>
+                </div>                      
+
+                <form action="/pagina_efetuar_pedido" method="GET">
+                <button>Finalizar sua compra</button>
+                </form>
+            </div>  
+        </div>
+    </nav>
+    <section>
+        
+    </section>
+</body>

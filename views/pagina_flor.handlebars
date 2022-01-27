@@ -1,0 +1,50 @@
+<body class="bg">
+<div class="geral">
+ <header>
+        <div class="nomeFlor">
+            <h1>Florishop</h1>
+            <i style="color: greenyellow" class="fab fa-envira fa-2x"></i>
+        </div> 
+         <div class="pesquisar">
+            <i  class="fas fa-search fa-2x"></i>
+            <form action="/procurar" method="POST" class="pesquisar">
+            <input type="text" id="flor" name="flor" placeholder="Flor">
+            <button type="submit" class="procurar">Procurar</button>
+            </form>
+        </div>         
+        <div class="carrinho">
+            <i class="fas fa-shopping-cart fa-2x"></i>
+            <a href="/pagina_carrinho"><button>Carrinho</button></a>
+        </div>
+        <div class="conf">
+            <i class="fas fa-cog fa-2x"></i>
+            <a href='/pagina_config'><button>Configurações</button></a>
+        </div>
+        <div class="dinheiro">
+            <i class="fas fa-coins fa-2x"></i>
+            <a href="/pagina_vale_presente"><button>Adicionar Vale-Presente</button></a>   
+            <p>R${{valor}},00</p>  
+        </div>
+        <div class="sair">
+            <i class="fas fa-door-open fa-2x"></i>
+            <a href="/"><button>Sair</button></a>   
+        </div>
+</header>
+    <div class="containerproduto">
+        <div class="embaixo">
+            <img src="{{image}}" alt="flor">   
+            <div class="dentro">
+            <h1>{{nome}}</h1>
+            <p>As flores são conhecidas pela intensidade de sua cor e por simbolizar alegria, lealdade, entusiasmo. Por isso o é perfeito para você expressar desejo de sucesso, boa vida e reforçar a amizade com aquela pessoa especial. O girassol também é uma ótima opção de item de decoração, pois traz mais luz e combina com qualquer ambiente. É ou não é um presente versátil?
+            </p>
+            <div class="maisumdiv">
+            <h2>R${{price}}</h2>
+            <INPUT placeholder="Quant" class="inpt" TYPE="NUMBER" MIN="1" MAX="10" STEP="1">
+            </div>
+            <div class="bnt1">
+            <button class="btnPrincipal">Adicionar ao carrinho</button>
+            </div>
+            </div>
+        </div>    
+</div>
+</body>

@@ -1,0 +1,20 @@
+{
+  "name": "florishp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.25.0",
+    "express": "^4.17.2",
+    "mysql2": "^2.3.3",
+    "node-fetch": "^2.6.1",
+    "nodemailer": "^6.7.2",
+    "pensador": "^1.0.4",
+    "sequelize": "^6.12.5"
+  }
+}

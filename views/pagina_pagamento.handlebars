@@ -1,0 +1,84 @@
+<body class="bg">
+ <header>
+        <div class="nomeFlor">
+            <h1>Florishop</h1>
+            <i style="color: greenyellow" class="fab fa-envira fa-2x"></i>
+        </div> 
+        <div class="pesquisar">
+            <i  class="fas fa-search fa-2x"></i>
+            <form action="/procurar" method="POST" class="pesquisar">
+            <input type="text" id="flor" name="flor" placeholder="Flor">
+            <button type="submit" class="procurar">Procurar</button>
+            </form>
+        </div>         
+        <div class="carrinho">
+            <i class="fas fa-shopping-cart fa-2x"></i>
+            <a href="/pagina_carrinho"><button>Carrinho</button></a>
+        </div>
+        <div class="conf">
+            <i class="fas fa-cog fa-2x"></i>
+            <a href='/pagina_config'><button>Configurações</button></a>
+        </div>
+        <div class="dinheiro">
+            <i class="fas fa-coins fa-2x"></i>
+            <a href="/pagina_vale_presente"><button>Adicionar Vale-Presente</button></a> 
+            <p>R${{valor}},00</p>    
+        </div>
+        <div class="sair">
+            <i class="fas fa-door-open fa-2x"></i>
+            <a href="/"><button>Sair</button></a>   
+        </div>
+    </header>
+    <nav>
+        <h1 style="color: green; font-size:30px; margin-botton:20px">{{mensagem}}</h1>
+        <div class="ctn_pagamentos">
+            <h1>Método de Pagamento</h1>
+            <div class="cartaoMais">
+                
+                <div class="cartao">
+                    <h2 style="font-size:20px; margin-bottom:10px">Cartão de crédito</h2>
+                        <form action="">
+                        <div class="cartaoDentro">
+                            <div class="parts">
+                                <label for="nomeCartão">Nome do Titular</label>
+                                <input type="text">
+                            </div>
+                            <div class="parts"> 
+                                <label for="">Numero do cartão</label>
+                                <input  placeholder="1111222233334444">
+                            </div>
+                            <div class="expire">
+                                <div class="parts">
+                                    <label for="">Ano de validade</label>
+                                    <select id="cars">
+                                        <option label="2023">2023</option>
+                                        <option label="2024">2024</option>
+                                        <option label="2025">2025</option>
+                                        <option label="2026">2026</option>
+                                        <option label="2027">2027</option>
+                                        <option label="2028">2028</option>
+                                        <option label="2029">2029</option>
+                                    </select>
+                                </div>
+                                <div class="parts">
+                                    <label for="">CVV</label>
+                                    <input style="width: 50px;" type="text">
+                                </div>
+                            </div>
+                        </div>
+                        </form>
+                    
+                </div>
+                <div class="confirma">
+                <form action="/salvarcartao" method="post">
+                <input type="text" placeholder="Nome do Cartão" class="nCartao" id="cartao" name="cartao" required>
+                <button class="bCartao">Adicionar Cartão</button>
+                </form>
+                </div>          
+            </div>        
+        </div>
+    </nav>
+    <section>
+        
+    </section>
+</body>
